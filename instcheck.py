@@ -1,3 +1,3 @@
 from selenium import webdriver
 
-browser = webdriver.firefox()
+browser = webdriver.Safari()
