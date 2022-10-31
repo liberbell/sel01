@@ -1,6 +1,7 @@
 from hashlib import blake2b
 from selenium import webdriver
 from PIL import Image
+from selenium.webdriver.common.by import By
 
 browser = webdriver.Safari()
 # browser = webdriver.Chrome()
