@@ -9,5 +9,5 @@ browser.get("https://scraping-for-beginner.herokuapp.com/login_page")
 
 
 elem_username = browser.find_element_by_id("username")
-
+print(elem_username)
 browser.quit()
