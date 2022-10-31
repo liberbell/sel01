@@ -15,4 +15,6 @@ elem_username.send_keys("imanishi")
 elem_password = browser.find_element(By.ID, value="password")
 elem_password.send_keys("kohei")
 
+elem_botton = browser.find_element(By.ID, value="login-btn")
+
 # browser.quit()
