@@ -10,6 +10,9 @@ browser.get("https://scraping-for-beginner.herokuapp.com/login_page")
 
 
 elem_username = browser.find_element(By.ID, value="username")
-print(elem_username)
 elem_username.send_keys("imanishi")
+
+elem_password = browser.find_element(By.ID, value="password")
+elem_password.send_keys("kohei")
+
 # browser.quit()
