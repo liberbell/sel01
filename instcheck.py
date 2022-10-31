@@ -8,6 +8,6 @@ browser = webdriver.Safari()
 browser.get("https://scraping-for-beginner.herokuapp.com/login_page")
 
 
-elem_username = browser.find_element(By_id, value="username")
+elem_username = browser.find_element(By.ID, value="username")
 print(elem_username)
 browser.quit()
