@@ -37,5 +37,10 @@ elems_th = browser.find_elements(By.TAG_NAME, value="th")
 # print(elems_th[0].text)
 # print(len(elems_th))
 
+keys = []
 for  elem in elems_th:
-    print(elem.text)
+    # print(elem.text)
+    key = elem.text
+    keys.append(key)
+
+print(keys)
