@@ -32,3 +32,6 @@ elem_h = browser.find_element(By.ID, value="hobby")
 
 elem_th = browser.find_element(By.TAG_NAME, value="th")
 print(elem_th.text)
+
+elems_th = browser.find_elements(By.TAG_NAME, value="th")
+print(elems_th.text)
