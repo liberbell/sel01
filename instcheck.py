@@ -44,3 +44,7 @@ for  elem in elems_th:
     keys.append(key)
 
 print(keys)
+
+elems_td = browser.find_elements(By.TAG_NAME, value="td")
+
+values = []
