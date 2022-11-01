@@ -34,4 +34,4 @@ elem_th = browser.find_element(By.TAG_NAME, value="th")
 print(elem_th.text)
 
 elems_th = browser.find_elements(By.TAG_NAME, value="th")
-print(elems_th)
+print(elems_th[0].text)
