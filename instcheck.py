@@ -19,4 +19,7 @@ elem_password.send_keys("kohei")
 
 elem_botton = browser.find_element(By.ID, value="login-btn")
 elem_botton.click()
+
+elem = browser.find_element(By.ID, value="name")
+print(elem.text)
 # browser.quit()
