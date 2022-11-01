@@ -35,9 +35,7 @@ elem_th = browser.find_element(By.TAG_NAME, value="th")
 
 elems_th = browser.find_elements(By.TAG_NAME, value="th")
 # print(elems_th[0].text)
-print(len(elems_th))
+# print(len(elems_th))
 
-# i = 0
-# for i in len(elems_th):
-#     print(elems_th[i].text)
-#     i += 1
+for  elem in elems_th:
+    print(elem.text)
