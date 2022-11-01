@@ -48,3 +48,8 @@ print(keys)
 elems_td = browser.find_elements(By.TAG_NAME, value="td")
 
 values = []
+for elem in elems_td:
+    value = elem.text
+    values.append(value)
+
+print(values)
