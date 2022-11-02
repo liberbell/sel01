@@ -2,6 +2,7 @@ from hashlib import blake2b
 from selenium import webdriver
 from PIL import Image
 from selenium.webdriver.common.by import By
+import pandas as pd
 
 # browser = webdriver.Safari()
 # browser = webdriver.Chrome()
@@ -53,3 +54,7 @@ for elem in elems_td:
     values.append(value)
 
 print(values)
+
+df = pd.DataFrame()
+df['Title'] = keys
+df["Value"] = values
