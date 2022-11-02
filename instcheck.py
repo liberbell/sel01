@@ -58,3 +58,6 @@ print(values)
 df = pd.DataFrame()
 df['Title'] = keys
 df["Value"] = values
+# print(df)
+
+df.to_csv("trainer.csv", index=False)
