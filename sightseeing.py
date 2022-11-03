@@ -54,7 +54,8 @@ elem_ranking1 = elem_rankingbox1.find_element(By.CLASS_NAME, value="u_rankBox")
 # elem_ranking1 = int(elem_ranking1.text)
 # print(type(elem_ranking1.text))
 
-elem_fun1 = elem_ranking1.find_element(By.CLASS_NAME, value="u_categoryTipsItem").find_element(By.CLASS_NAME, value="evaluateNumber")
+elem_fun1 = elem_ranking1.find_element(By.CLASS_NAME, value="u_categoryTipsItem")
+# .find_element(By.CLASS_NAME, value="evaluateNumber")
 print(elem_fun1.text)
 
 rank1.append(title1.split("\n")[1])
