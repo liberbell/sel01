@@ -68,3 +68,15 @@ rank1.append(elem_rank1_access.text)
 
 print(rank1)
 # browser.quit()
+
+rank2 =[]
+elem_rankingbox2 = browser.find_elements(By.CLASS_NAME, value="u_areaListRankingBox")[1]
+elem_title2 = elem_rankingbox2.find_element(By.CLASS_NAME, value="u_title").find_element(By.TAG_NAME, value="h2")
+title2 = elem_title2.text
+
+rank2.append(title2.split("\n")[1])
+# rank1.append(elem_ranking1.text)
+# rank1.append(elem_rank1_func.text)
+# rank1.append(elem_rank1_crowd.text)
+# rank1.append(elem_rank1_view.text)
+# rank1.append(elem_rank1_access.text)
