@@ -50,7 +50,7 @@ elem_title1 = elem_rankingbox1.find_element(By.CLASS_NAME, value="u_title").find
 
 title1 = elem_title1.text
 
-elem_ranking1 = elem_rankingbox1.find_element(By.CLASS_NAME, value="u_rankBox")
+elem_ranking1 = elem_rankingbox1.find_element(By.CLASS_NAME, value="u_rankBox").find_element(By.CLASS_NAME, value="evaluateNumber")
 # elem_ranking1 = int(elem_ranking1.text)
 # print(type(elem_ranking1.text))
 
