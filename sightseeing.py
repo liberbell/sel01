@@ -50,3 +50,5 @@ elem_title1 = elem_rankingbox1.find_element(By.CLASS_NAME, value="u_title").find
 
 # print(elem_rankingbox.text, elem_title.text)
 title1 = elem_title1.text
+rank1.append(title1.split("\n")[1])
+print(rank1)
