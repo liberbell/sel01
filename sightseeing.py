@@ -74,11 +74,17 @@ elem_rankingbox2 = browser.find_elements(By.CLASS_NAME, value="u_areaListRanking
 elem_title2 = elem_rankingbox2.find_element(By.CLASS_NAME, value="u_title").find_element(By.TAG_NAME, value="h2")
 title2 = elem_title2.text
 
+elem_ranking2 = elem_rankingbox2.find_element(By.CLASS_NAME, value="u_rankBox").find_element(By.CLASS_NAME, value="evaluateNumber")
+elem_rank2_func = elem_rankingbox2.find_element(By.CLASS_NAME, value="u_categoryTipsItem").find_elements(By.CLASS_NAME, value="is_rank")[0]
+elem_rank2_crowd = elem_rankingbox2.find_element(By.CLASS_NAME, value="u_categoryTipsItem").find_elements(By.CLASS_NAME, value="is_rank")[1]
+elem_rank2_view = elem_rankingbox2.find_element(By.CLASS_NAME, value="u_categoryTipsItem").find_elements(By.CLASS_NAME, value="is_rank")[2]
+elem_rank2_access = elem_rankingbox2.find_element(By.CLASS_NAME, value="u_categoryTipsItem").find_elements(By.CLASS_NAME, value="is_rank")[3]
+
 rank2.append(title2.split("\n")[1])
-# rank1.append(elem_ranking1.text)
-# rank1.append(elem_rank1_func.text)
-# rank1.append(elem_rank1_crowd.text)
-# rank1.append(elem_rank1_view.text)
-# rank1.append(elem_rank1_access.text)
+rank2.append(elem_ranking2.text)
+rank2.append(elem_rank2_func.text)
+rank2.append(elem_rank2_crowd.text)
+rank2.append(elem_rank2_view.text)
+rank2.append(elem_rank2_access.text)
 
 print(rank2)
