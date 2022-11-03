@@ -74,7 +74,7 @@ elem_rankingbox2 = browser.find_elements(By.CLASS_NAME, value="u_areaListRanking
 elem_title2 = elem_rankingbox2.find_element(By.CLASS_NAME, value="u_title").find_element(By.TAG_NAME, value="h2")
 title2 = elem_title2.text
 
-elem_ranking2 = elem_rankingbox2.find_element(By.CLASS_NAME, value="u_rankBox").find_element(By.CLASS_NAME, value="evaluateNumber")
+elem_ranking2 = elem_rankingbox2.find_elements(By.CLASS_NAME, value="u_rankBox").find_element(By.CLASS_NAME, value="evaluateNumber")
 elem_rank2_func = elem_rankingbox2.find_element(By.CLASS_NAME, value="u_categoryTipsItem").find_elements(By.CLASS_NAME, value="is_rank")[0]
 elem_rank2_crowd = elem_rankingbox2.find_element(By.CLASS_NAME, value="u_categoryTipsItem").find_elements(By.CLASS_NAME, value="is_rank")[1]
 elem_rank2_view = elem_rankingbox2.find_element(By.CLASS_NAME, value="u_categoryTipsItem").find_elements(By.CLASS_NAME, value="is_rank")[2]
