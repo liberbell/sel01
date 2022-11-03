@@ -91,3 +91,4 @@ print(rank2)
 
 elem_sites = browser.find_elements(By.CLASS_NAME, value="u_areaListRankingBox")
 for elem_site in elem_sites:
+    elem_title = elem_site.find_element(By.CLASS_NAME, value="u_title")
