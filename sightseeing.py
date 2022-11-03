@@ -55,10 +55,14 @@ elem_ranking1 = elem_rankingbox1.find_element(By.CLASS_NAME, value="u_rankBox").
 # print(type(elem_ranking1.text))
 
 elem_rank1_func = elem_rankingbox1.find_element(By.CLASS_NAME, value="u_categoryTipsItem").find_elements(By.CLASS_NAME, value="is_rank")[0]
+elem_rank1_crowd = elem_rankingbox1.find_element(By.CLASS_NAME, value="u_categoryTipsItem").find_elements(By.CLASS_NAME, value="is_rank")[1]
+elem_rank1_view = elem_rankingbox1.find_element(By.CLASS_NAME, value="u_categoryTipsItem").find_elements(By.CLASS_NAME, value="is_rank")[2]
+elem_rank1_access = elem_rankingbox1.find_element(By.CLASS_NAME, value="u_categoryTipsItem").find_elements(By.CLASS_NAME, value="is_rank")[3]
 
 rank1.append(title1.split("\n")[1])
 rank1.append(elem_ranking1.text)
-rank1.append(elem_fun1.text)
+rank1.append(elem_rank1_func.text)
+rank1.append(elem_rank1_crowd.text)
 
 print(rank1)
 # browser.quit()
