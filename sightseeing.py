@@ -47,4 +47,6 @@ browser.get("https://scraping-for-beginner.herokuapp.com/ranking/")
 elem_rankingbox = browser.find_element(By.CLASS_NAME, value="u_areaListRankingBox")
 elem_title = elem_rankingbox.find_element(By.CLASS_NAME, value="u_title")
 
-print(elem_rankingbox.text, elem_title.text)
+# print(elem_rankingbox.text, elem_title.text)
+title = elem_title.text
+print(title.split("\n"))
