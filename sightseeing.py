@@ -80,3 +80,5 @@ rank2.append(title2.split("\n")[1])
 # rank1.append(elem_rank1_crowd.text)
 # rank1.append(elem_rank1_view.text)
 # rank1.append(elem_rank1_access.text)
+
+print(rank2)
