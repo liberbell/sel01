@@ -88,3 +88,6 @@ rank2.append(elem_rank2_view.text)
 rank2.append(elem_rank2_access.text)
 
 print(rank2)
+
+elem_sites = browser.find_elements(By.CLASS_NAME, value="u_areaListRankingBox")
+for elem_site in len(elem_site):
