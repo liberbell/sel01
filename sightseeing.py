@@ -63,6 +63,8 @@ rank1.append(title1.split("\n")[1])
 rank1.append(elem_ranking1.text)
 rank1.append(elem_rank1_func.text)
 rank1.append(elem_rank1_crowd.text)
+rank1.append(elem_rank1_view.text)
+rank1.append(elem_rank1_access.text)
 
 print(rank1)
 # browser.quit()
