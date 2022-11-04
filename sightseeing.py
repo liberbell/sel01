@@ -90,10 +90,15 @@ rank2.append(elem_rank2_access.text)
 # print(rank2)
 
 titles = []
+ranks = []
+i = 0
 elem_sites = browser.find_elements(By.CLASS_NAME, value="u_areaListRankingBox")
-for elem_site in elem_sites:
-    elem_title = elem_site.find_element(By.CLASS_NAME, value="u_title")
+for elem_site, i in elem_sites:
+    elem_title = elem_site.find_elements(By.CLASS_NAME, value="u_title")[0]
     title = elem_title.text.split("\n")[1]
     titles.append(title)
+    i +=1
+
+
 
 print(titles)
