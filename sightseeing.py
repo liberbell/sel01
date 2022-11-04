@@ -66,7 +66,7 @@ rank1.append(elem_rank1_crowd.text)
 rank1.append(elem_rank1_view.text)
 rank1.append(elem_rank1_access.text)
 
-print(rank1)
+# print(rank1)
 # browser.quit()
 
 rank2 =[]
@@ -87,7 +87,7 @@ rank2.append(elem_rank2_crowd.text)
 rank2.append(elem_rank2_view.text)
 rank2.append(elem_rank2_access.text)
 
-print(rank2)
+# print(rank2)
 
 titles = []
 elem_sites = browser.find_elements(By.CLASS_NAME, value="u_areaListRankingBox")
@@ -95,3 +95,5 @@ for elem_site in elem_sites:
     elem_title = elem_site.find_element(By.CLASS_NAME, value="u_title")
     title = elem_title.split("\n")[1]
     titles.append(title)
+
+print(titles)
