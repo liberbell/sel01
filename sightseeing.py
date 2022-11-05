@@ -103,7 +103,8 @@ elems_ranks = browser.find_elements(By.CLASS_NAME, value="u_rankBox")
 for elem_rankbox in elems_ranks:
     elem_rank = elem_rankbox.find_element(By.CLASS_NAME, value="evaluateNumber")
     # print(elem_rank.text)
-    ranks = elem_rank.text
+    rank = elem_rank.text
+    ranks.append(rank)
 # print(elems_rank)
 
 print(titles)
