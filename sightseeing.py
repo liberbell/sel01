@@ -93,13 +93,13 @@ titles = []
 ranks = []
 i = 0
 elem_sites = browser.find_elements(By.CLASS_NAME, value="u_areaListRankingBox")
-for elem_site, i in elem_sites:
-    elem_title = elem_site.find_elements(By.CLASS_NAME, value="u_title")[0]
+for elem_site in elem_sites:
+    elem_title = elem_site.find_elements(By.CLASS_NAME, value="u_title")
     title = elem_title.text.split("\n")[1]
     titles.append(title)
-    i +=1
+    # i +=1
 
 elems_rank = browser.find_elements(By.CLASS_NAME, value="u_rankBox")
 print(elems_rank.text)
 
-print(titles)
+# print(titles)
