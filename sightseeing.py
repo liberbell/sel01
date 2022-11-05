@@ -112,6 +112,7 @@ elems_tipsitems = browser.find_elements(By.CLASS_NAME, value="u_categoryTipsItem
 
 for elem_tipsitem in elems_tipsitems:
     elem_categoryitems = elem_tipsitem.find_elements(By.CLASS_NAME, value="is_rank")
+    print(len(elem_categoryitems))
     for elem_categoryitem in elem_categoryitems:
         elem_categoryrank = elem_categoryitem.find_element(By.CLASS_NAME, value="evaluateNumber")
         print(elem_categoryrank.text)
