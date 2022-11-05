@@ -116,7 +116,6 @@ for elem_tipsitem in elems_tipsitems:
     for elem_categoryitem in elem_categoryitems:
         elem_categoryrank = elem_categoryitem.find_element(By.CLASS_NAME, value="evaluateNumber")
         print(elem_categoryrank.text)
-        print(len(elem_categoryrank))
     
 
 print(titles)
