@@ -99,7 +99,10 @@ for elem_site in elem_sites:
     titles.append(title)
     # i +=1ß
 
-# elems_rank = browser.find_elements(By.CLASS_NAME, value="u_rankBox")
-# print(elems_rank.text)
+elems_ranks = browser.find_elements(By.CLASS_NAME, value="u_rankBox")
+for elem_rankbox in elems_ranks:
+    elem_rank = elem_rankbox.find_element(By.CLASS_NAME, value="evaluateNumber")
+    print(elem_rank.text)
+print(elems_rank)
 
 print(titles)
