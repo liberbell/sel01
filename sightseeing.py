@@ -1,5 +1,6 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
+import pandas as pd
 
 
 browser = webdriver.Chrome()
@@ -120,3 +121,5 @@ for elem_tipsitem in elem_tipsitems:
 print(titles)
 print(ranks)
 print(categories)
+
+df = pd.DataFrame()
