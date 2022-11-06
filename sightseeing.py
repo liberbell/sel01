@@ -129,4 +129,5 @@ df["ranks"] = ranks
 print(df)
 
 df.categories = pd.DataFrame(categories)
+df.categories.columns = ["fun", "crowded", "view", "access"]
 print(df.categories)
