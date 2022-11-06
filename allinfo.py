@@ -3,11 +3,11 @@ from selenium.webdriver.common.by import By
 import pandas as pd
 
 browser = webdriver.Chrome()
-browser.get("https://scraping-for-beginner.herokuapp.com/ranking/")
+
 
 titles = []
 ranks = []
 categories = []
 
 for page in range(1, 4):
-    
+    browser.get("https://scraping-for-beginner.herokuapp.com/ranking/?page={}".format(page))
