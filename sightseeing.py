@@ -128,7 +128,7 @@ df["Site"] = titles
 df["ranks"] = ranks
 # print(df)
 
-df.categories = pd.DataFrame(categories)
-df.categories.columns = ["fun", "crowded", "view", "access"]
-pd.concat([df, df.categories], axis=1)
+df_categories = pd.DataFrame(categories)
+df_categories.columns = ["fun", "crowded", "view", "access"]
+pd.concat([df, df_categories], axis=1)
 print(df)
