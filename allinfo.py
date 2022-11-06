@@ -36,3 +36,10 @@ for page in range(1, 4):
 print(title)
 print(ranks)
 print(categories)
+
+df = pd.DataFrame()
+
+df["Site"] = titles
+df["ranks"] = ranks
+df_categories = pd.DataFrame(categories)
+df_categories.columns = ["fun", "crowded", "view", "access"]
