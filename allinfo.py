@@ -43,3 +43,6 @@ df["Site"] = titles
 df["ranks"] = ranks
 df_categories = pd.DataFrame(categories)
 df_categories.columns = ["fun", "crowded", "view", "access"]
+
+df = pd.concat([df, df_categories], axis=1)
+df.to_csv("allviewpoint.csv", index=False)
