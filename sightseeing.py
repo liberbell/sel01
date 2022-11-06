@@ -132,3 +132,4 @@ df_categories = pd.DataFrame(categories)
 df_categories.columns = ["fun", "crowded", "view", "access"]
 print(pd.concat([df, df_categories], axis=1))
 
+df.to_csv("viewpoint.csv", index=False)
