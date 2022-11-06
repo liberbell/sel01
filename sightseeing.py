@@ -130,5 +130,5 @@ df["ranks"] = ranks
 
 df_categories = pd.DataFrame(categories)
 df_categories.columns = ["fun", "crowded", "view", "access"]
-pd.concat([df, df_categories], axis=1)
-print(df)
+print(pd.concat([df, df_categories], axis=1))
+
