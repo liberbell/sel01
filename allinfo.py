@@ -23,3 +23,12 @@ for page in range(1, 4):
         elem_rank = elem_rankbox.find_element(By.CLASS_NAME, value="evaluateNumber")
         rank = float(elem_rank.text)
         ranks.append(rank)
+
+    elem_tipsitems = browser.find_elements(By.CLASS_NAME, value="u_categoryTipsItem")
+    for elem_tipsitem in elem_tipsitems:
+        elem_categoryitems = elem_tipsitem.find_elements(By.CLASS_NAME, value="is_rank")
+        _ranks = []
+        for elem_categoryrank in elem_categoryitems:
+            elem_rank = elem_categoryrank.find_element(By.CLASS_NAME, value="evaluateNumber").text
+            _ranks.append(elem_rank)
+        categories.append(_ranks)
