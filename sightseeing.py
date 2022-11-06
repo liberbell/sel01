@@ -108,15 +108,16 @@ for elem_rankbox in elems_ranks:
 # print(elems_rank)
 
 elem_categoryitems = []
-_ranks = []
-elems_tipsitems = browser.find_elements(By.CLASS_NAME, value="u_categoryTipsItem")
+elem_tipsitems = browser.find_elements(By.CLASS_NAME, value="u_categoryTipsItem")
 
-for elem_tipsitem in elems_tipsitems:
+for elem_tipsitem in elem_tipsitems:
     elem_categoryitems = elem_tipsitem.find_elements(By.CLASS_NAME, value="is_rank")
     # print(len(elem_categoryitems))
     # for elem_categoryitem in elem_categoryitems:
-    elem_categoryrank = elem_categoryitems.find_element(By.CLASS_NAME, value="evaluateNumber").text
-    _ranks.append(elem_categoryrank)
+    _ranks = []
+    for elem_categoryrank in elem_categoryitems:
+        elem_categoryrank = elem_categoryitems.find_element(By.CLASS_NAME, value="evaluateNumber").text
+        _ranks.append(elem_categoryrank)
     
 
 print(titles)
