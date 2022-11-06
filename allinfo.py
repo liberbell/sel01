@@ -32,3 +32,7 @@ for page in range(1, 4):
             elem_rank = elem_categoryrank.find_element(By.CLASS_NAME, value="evaluateNumber").text
             _ranks.append(elem_rank)
         categories.append(_ranks)
+
+print(title)
+print(ranks)
+print(categories)
