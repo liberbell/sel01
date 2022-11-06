@@ -123,3 +123,7 @@ print(ranks)
 print(categories)
 
 df = pd.DataFrame()
+
+df["Site"] = titles
+df["ranks"] = ranks
+print(df)
