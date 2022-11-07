@@ -37,3 +37,5 @@ for elem in elems:
 
 for URL in URLs:
     f = io.BytesIO(request.urlopen(url=URL).read())
+    img = Image.open(f)
+    img.show()
