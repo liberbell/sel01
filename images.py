@@ -1,5 +1,6 @@
 from PIL import Image
 from selenium import webdriver
+from selenium.webdriver.common.by import By
 
 # img = Image.open("aircraft.jpg")
 # img.show()
@@ -11,3 +12,7 @@ from selenium import webdriver
 
 browser = webdriver.Chrome()
 browser.get("https://scraping-for-beginner.herokuapp.com/image")
+# <div class="material-placeholder" style=""><img class="materialbox responsive-img card" src="/static/assets/img/img1.JPG" style=""></div>
+
+elem = browser.find_element(By.CLASS_NAME, value="material-placeholder")
+elem = elem.find_element(By.CLASS_NAME, value="src")
