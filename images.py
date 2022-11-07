@@ -16,12 +16,18 @@ browser = webdriver.Chrome()
 browser.get("https://scraping-for-beginner.herokuapp.com/image")
 # <div class="material-placeholder" style=""><img class="materialbox responsive-img card" src="/static/assets/img/img1.JPG" style=""></div>
 
-elem = browser.find_element(By.CLASS_NAME, value="material-placeholder")
-elem = elem.find_element(By.TAG_NAME, value="img")
-# print(elem.get_attribute("src"))
-URL = elem.get_attribute("src")
+URLs = []
+# elem = browser.find_element(By.CLASS_NAME, value="material-placeholder")
+# elem = elem.find_element(By.TAG_NAME, value="img")
+# # print(elem.get_attribute("src"))
+# URL = elem.get_attribute("src")
 
-f = io.BytesIO(request.urlopen(url=URL).read())
-img = Image.open(f)
-img.show()
-img.save("image01.jpg")
+# f = io.BytesIO(request.urlopen(url=URL).read())
+# img = Image.open(f)
+# img.show()
+# img.save("image01.jpg")
+
+elems = browser.find_elements(By.CLASS_NAME, value="material-placeholder")
+for elem in elems:
+    img_tag = elem.find_element(By.TAG_NAME, value="img")
+    url = img_tag.get_attribute("src")
