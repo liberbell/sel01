@@ -15,5 +15,5 @@ browser.get("https://scraping-for-beginner.herokuapp.com/image")
 # <div class="material-placeholder" style=""><img class="materialbox responsive-img card" src="/static/assets/img/img1.JPG" style=""></div>
 
 elem = browser.find_element(By.CLASS_NAME, value="material-placeholder")
-elem = elem.find_element(By.TAG_NAME, value="src")
-print(elem)
+elem = elem.find_element(By.TAG_NAME, value="img")
+print(elem.get_attribute("src"))
