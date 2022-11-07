@@ -5,4 +5,4 @@ img = Image.open("aircraft.jpg")
 
 img = img.resize((1024, 768))
 img.show()
-img.size
+print(img.size)
