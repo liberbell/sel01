@@ -18,4 +18,7 @@ browser.get("https://scraping-for-beginner.herokuapp.com/image")
 
 elem = browser.find_element(By.CLASS_NAME, value="material-placeholder")
 elem = elem.find_element(By.TAG_NAME, value="img")
-print(elem.get_attribute("src"))
+# print(elem.get_attribute("src"))
+URL = elem.get_attribute("src")
+
+f = io.BytesIO(request.urlopen(url=URL).read())
