@@ -31,3 +31,4 @@ elems = browser.find_elements(By.CLASS_NAME, value="material-placeholder")
 for elem in elems:
     img_tag = elem.find_element(By.TAG_NAME, value="img")
     url = img_tag.get_attribute("src")
+    print(url)
