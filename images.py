@@ -22,3 +22,5 @@ elem = elem.find_element(By.TAG_NAME, value="img")
 URL = elem.get_attribute("src")
 
 f = io.BytesIO(request.urlopen(url=URL).read())
+img = Image.open(f)
+img.show()
