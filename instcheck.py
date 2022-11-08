@@ -4,6 +4,7 @@ from PIL import Image
 from selenium.webdriver.common.by import By
 import pandas as pd
 
+
 # browser = webdriver.Safari()
 # browser = webdriver.Chrome()
 
