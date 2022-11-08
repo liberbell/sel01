@@ -40,5 +40,6 @@ for URL in URLs:
     f = io.BytesIO(request.urlopen(url=URL).read())
     sep_url = os.path.split(URL)
     print(sep_url[1])
+    save_file_name = "image_dir/" + sep_url[1]
     # img = Image.open(f)
     # img.show()
