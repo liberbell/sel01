@@ -38,6 +38,7 @@ for elem in elems:
 
 for URL in URLs:
     f = io.BytesIO(request.urlopen(url=URL).read())
-    file_name = URL
+    sep_url = os.path.split(URL)
+    print(sep_url)
     # img = Image.open(f)
     # img.show()
