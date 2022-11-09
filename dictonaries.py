@@ -33,3 +33,5 @@ print(bike_details)
 
 bike_details["num_cylinders"] = 2
 print(bike_details)
+bike_details["bike_price"] = 29140
+print(bike_details)
