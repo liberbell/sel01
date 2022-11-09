@@ -24,3 +24,9 @@ print(student_details.values())
 
 mixed_dict = {False: "Daniel", "Aria": [1, 2, 3], "Jacob": True}
 print(mixed_dict)
+
+bike_details = {"bike_owner": "James Smith"
+                "bike_model": "Ducatti 1100",
+                "bile_price": 28140,
+                "engine_displacement": 1197}
+print(bike_details)
