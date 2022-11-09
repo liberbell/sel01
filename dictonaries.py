@@ -21,3 +21,6 @@ print(student_details.keys())
 
 print("Samuel" in student_details.keys())
 print(student_details.values())
+
+mixed_dict = {False: "Daniel", "Aria": [1, 2, 3], "Jacob": True}
+print(mixed_dict)
