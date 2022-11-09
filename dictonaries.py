@@ -20,3 +20,4 @@ print(student_details)
 print(student_details.keys())
 
 print("Samuel" in student_details.keys())
+print(student_details.values())
