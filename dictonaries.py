@@ -30,3 +30,6 @@ bike_details = {"bike_owner": "James Smith",
                 "bile_price": 28140,
                 "engine_displacement": 1197}
 print(bike_details)
+
+bike_details["num_cylinders"] = 2
+print(bike_details)
