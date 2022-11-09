@@ -12,3 +12,8 @@ print(int_dict[1])
 
 int_dict = {1: 45, 2: 55, 3: 65, 3: 75}
 print(int_dict)
+
+student_details = { "Henry": 1995,
+                    "Samuel": 1999,
+                    "Ingrid": 2005}
+print(student_details)
