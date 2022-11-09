@@ -25,4 +25,9 @@
 # &lb=1
 # &sr=1
 
+from selenium import webdriver
+
+browser = webdriver.Chrome()
 URL = "https://transit.yahoo.co.jp/search/result?from={}&to={}&fromgid=&togid=&flatlon=&tlatlon=%2C%2C23368&via=&viacode=&y=2022&m=11&d=09&hh=08&m1=5&m2=0&type=1&ticket=ic&expkind=1&userpass=1&ws=3&s=0&al=1&shin=1&ex=1&hb=1&lb=1&sr=1".format("東京", "武蔵小杉")
+
+elem = browser.get(URL)
