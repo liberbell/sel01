@@ -5,3 +5,6 @@ bike_owners = {"James": "Ducatti 1200", "Jacob": "Ducatti 1100", "William": "BMW
 print(bike_owners)
 print(bike_owners["Aiden"])
 # print(bike_owners["Harley"])
+
+int_dict = {1: 45, 2: 55, 3: 65}
+print(int_dict)
