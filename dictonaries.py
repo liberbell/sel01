@@ -18,3 +18,5 @@ student_details = { "Henry": 1995,
                     "Ingrid": 2005}
 print(student_details)
 print(student_details.keys())
+
+print("Samuel" in student_details.keys())
