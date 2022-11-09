@@ -8,3 +8,7 @@ print(bike_owners["Aiden"])
 
 int_dict = {1: 45, 2: 55, 3: 65}
 print(int_dict)
+print(int_dict[1])
+
+int_dict = {1: 45, 2: 55, 3: 65, 3: 75}
+print(int_dict)
