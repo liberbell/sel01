@@ -4,3 +4,4 @@ bike_details = {"bike_owner": "James Smith",
                 "engine_displacement": 1197}
 
 print(len(bike_details))
+print(len(bike_details.keys()))
