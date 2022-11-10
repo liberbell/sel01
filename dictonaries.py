@@ -59,4 +59,4 @@ fruit_qty_consumed = {"Banana": [50, 60, 45, 55],
                   "Orange": [15, 90, 78, 65]}
 print(fruit_qty_consumed)
 print(fruit_qty_consumed["Appricot"])
-print(fruit_qty_consumed["Orange"[3]])
+print(fruit_qty_consumed["Orange"][3])
