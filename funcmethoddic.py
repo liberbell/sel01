@@ -6,3 +6,5 @@ bike_details = {"bike_owner": "James Smith",
 print(len(bike_details))
 print(len(bike_details.keys()))
 print(sorted(bike_details))
+print(sorted(bike_details, reverse=True))
+print(sorted(bike_details.values()))
