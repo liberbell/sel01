@@ -49,3 +49,5 @@ print(fruit_qty)
 fruit_qty["Orange"] = 70
 fruit_qty["Avocado"] = 30
 print(fruit_qty)
+print(fruit_qty["Apricot"])
+print(fruit_qty["Watermelon"])
