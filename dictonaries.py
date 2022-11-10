@@ -42,7 +42,10 @@ print(bike_details)
 fruit_qty = {}
 print(fruit_qty)
 
-fruit_qty["banana"] = 50
+fruit_qty["Banana"] = 50
 fruit_qty["Apple"] = 40
 fruit_qty["Apricot"] = 78
+print(fruit_qty)
+fruit_qty["Orange"] = 70
+fruit_qty["Avocado"] = 30
 print(fruit_qty)
