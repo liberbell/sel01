@@ -38,3 +38,6 @@ print(bike_details)
 
 del bike_details["engine_displacement"]
 print(bike_details)
+
+fruit_qty = {}
+print(fruit_qty)
