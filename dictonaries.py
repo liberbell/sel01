@@ -60,3 +60,9 @@ fruit_qty_consumed = {"Banana": [50, 60, 45, 55],
 print(fruit_qty_consumed)
 print(fruit_qty_consumed["Appricot"])
 print(fruit_qty_consumed["Orange"][3])
+
+fruit_qty_consumed = {"Banana": {"Fri": 50, "Sat": 40, "Sun": 20},
+                  "Apple": {"Fri": 10, "Sat": 15, "Sun": 20},
+                  "Appricot": {"Fri": 5, "Sat": 25, "Sun": 10},
+                  "Orange": {"Fri": 40, "Sat": 90, "Sun": 50}}
+print(fruit_qty_consumed)
