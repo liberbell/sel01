@@ -5,3 +5,4 @@ bike_details = {"bike_owner": "James Smith",
 
 print(len(bike_details))
 print(len(bike_details.keys()))
+print(sorted(bike_details))
