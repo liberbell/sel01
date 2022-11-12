@@ -23,3 +23,8 @@ new_dict_age = {"Elton": 71, "Eric": 57}
 
 dict_age.update(new_dict_age)
 print(dict_age)
+
+bike_details.clear()
+print(bike_details)
+del copy_bike_details
+print(copy_bike_details)
