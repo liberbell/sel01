@@ -12,3 +12,4 @@ print(bike_details.items())
 
 copy_bike_details = bike_details.copy()
 print(copy_bike_details.items())
+print(copy_bike_details.pop("engine_displacement"))
