@@ -13,3 +13,6 @@ print(mixed_set1)
 
 # set_list = {1, 2, 3, [4, 5, 6]}
 # print(set_list)
+
+set_int = {1, 2, 4, 8, 6, 7, 2, 5, 9}
+print(set_int)
