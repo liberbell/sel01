@@ -16,3 +16,6 @@ print(mixed_set1)
 
 set_int = {1, 2, 4, 8, 6, 7, 2, 5, 9}
 print(set_int)
+
+student_set = {"Alex", "Elton", "George", "Bob", "Alex", "Bob"}
+print(student_set)
