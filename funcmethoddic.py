@@ -16,3 +16,7 @@ print(copy_bike_details.pop("engine_displacement"))
 print(copy_bike_details.items())
 
 print(copy_bike_details.popitem())
+print(copy_bike_details.items())
+
+dict_age = {"Elton": 71, "Bob": 57}
+new_dict_age = {"Elton": 71, "Eric": 57}
