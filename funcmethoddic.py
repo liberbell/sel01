@@ -11,4 +11,4 @@ bike_details = {"bike_owner": "James Smith",
 print(bike_details.items())
 
 copy_bike_details = bike_details.copy()
-print(copy_bike_details)
+print(copy_bike_details.items())
