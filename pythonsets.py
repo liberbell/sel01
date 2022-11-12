@@ -19,4 +19,7 @@ print(set_int)
 
 student_set = {"Alex", "Elton", "George", "Bob", "Alex", "Bob"}
 print(student_set)
-print(student_set[1])
+# print(student_set[1])
+
+set_1 = {1, 3, 5, 4, 8, "a", 9, 2, 10}
+print(set_1)
