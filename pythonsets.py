@@ -10,3 +10,6 @@ print(mixed_set)
 
 mixed_set1 = {"Emma", 5,  1.5, True, (1, 2, 3)}
 print(mixed_set1)
+
+# set_list = {1, 2, 3, [4, 5, 6]}
+# print(set_list)
