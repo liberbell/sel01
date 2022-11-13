@@ -23,4 +23,5 @@ print(student_set)
 
 set_1 = {1, 3, 5, 4, 8, "a", 6, 2, 10}
 set_1.add(9)
+set_1.add(9.5)
 print(set_1)
