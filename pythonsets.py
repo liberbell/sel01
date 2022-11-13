@@ -29,3 +29,5 @@ print(set_1)
 teachers_set = {"Eric", "Bob", "George", "John", "Alex", "Elton"}
 print(teachers_set)
 print(len(teachers_set))
+print(max(teachers_set))
+print(min(teachers_set))
