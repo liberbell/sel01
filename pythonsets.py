@@ -21,5 +21,6 @@ student_set = {"Alex", "Elton", "George", "Bob", "Alex", "Bob"}
 print(student_set)
 # print(student_set[1])
 
-set_1 = {1, 3, 5, 4, 8, "a", 9, 2, 10}
+set_1 = {1, 3, 5, 4, 8, "a", 6, 2, 10}
+set_1.add(9)
 print(set_1)
