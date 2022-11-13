@@ -29,3 +29,4 @@ print(student_set_1)
 
 print({1, 2, 3}.isdisjoint({4, 5, 6}))
 print({1, 2, 3}.isdisjoint({1, 5, 6}))
+print(number1.isdisjoint(number2))
