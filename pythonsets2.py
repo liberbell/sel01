@@ -23,3 +23,6 @@ print(number2)
 
 number1.intersection_update(number2)
 print(number1)
+print(student_set_1, student_set_2, student_set_3)
+student_set_1.intersection_update(student_set_2)
+print(student_set_1)
