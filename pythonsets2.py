@@ -13,4 +13,5 @@ student_set_3 = {"Alex", "Ringo", "Ed"}
 
 print(student_set_1.union(student_set_2, student_set_3))
 
-print(print(number2.intersection(number1)))
+print(number2.intersection(number1))
+print(number1.difference(number2))
