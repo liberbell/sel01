@@ -12,3 +12,10 @@ my_list = ["Bob", 18,
             ]
 print(my_list)
 print(tuple(my_list))
+
+my_list1 = [["Bob", 18],
+            ["Eric", 15],
+            ["Alex", 10],
+            ["Ringo", 20]
+            ]
+print(my_list1)
