@@ -20,5 +20,6 @@ diff_set = student_set_1.difference(student_set_2)
 print(diff_set)
 print(number1)
 print(number2)
-print(number1.intersection_update(number2))
+
 number1.intersection_update(number2)
+print(number1)
