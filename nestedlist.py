@@ -33,3 +33,5 @@ student_list_3 = [[1, "Eric"],
                     [2, "Bob"],
                     [3, "Alex"],
                     [4, "Elton", "Ringo"]]
+print(student_list_3)
+print(dict(student_list_3))
