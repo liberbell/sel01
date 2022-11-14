@@ -28,3 +28,8 @@ student_list = [[1, "Eric", 2, "Bob"], [3, "Alex", 4, "Elton"]]
 student_list_2 = [[1, "Eric"], [2, "Bob"], [3, "Alex"], [4, "Elton"]]
 print(student_list_2)
 print(dict(student_list_2))
+
+student_list_3 = [[1, "Eric"],
+                    [2, "Bob"],
+                    [3, "Alex"],
+                    [4, "Elton", "Ringo"]]
