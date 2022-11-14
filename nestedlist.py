@@ -45,3 +45,4 @@ print(dict(student_list_4))
 
 print(car_matrix)
 print(dict(car_matrix))
+print(car_matrix.pop())
