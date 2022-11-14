@@ -51,3 +51,6 @@ car_matrix.clear()
 print(car_matrix)
 
 print(car_matrix_dict)
+
+car_name = list(car_matrix_dict)
+print(car_name)
