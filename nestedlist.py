@@ -54,3 +54,5 @@ print(car_matrix_dict)
 
 car_name = list(car_matrix_dict)
 print(car_name)
+car_hp = car_matrix_dict.values()
+print(car_hp)
