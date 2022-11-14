@@ -45,6 +45,9 @@ print(dict(student_list_4))
 
 print(car_matrix)
 print(dict(car_matrix))
+car_matrix_dict = dict(car_matrix)
 print(car_matrix.pop())
 car_matrix.clear()
 print(car_matrix)
+
+print(car_matrix_dict)
