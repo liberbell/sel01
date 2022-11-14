@@ -22,6 +22,6 @@ print(my_list1)
 
 print(tuple(my_list1))
 
-student_list = [[1, "Eric", 2, "Bob", 3, "Alex", 4, "Elton"]]
+student_list = [[1, "Eric", 2, "Bob"], [3, "Alex", 4, "Elton"]]
 print(student_list)
 # print(dict(student_list))
