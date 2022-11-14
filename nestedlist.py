@@ -42,3 +42,6 @@ student_list_4 = [[1, "Eric"],
                     [4, ["Elton", "Ringo"]]]
 print(student_list_4)
 print(dict(student_list_4))
+
+print(car_matrix)
+print(dict(car_matrix))
