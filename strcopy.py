@@ -21,3 +21,8 @@ print("Second: ", second_str)
 second_str = "smith"
 print("First: ", first_str)
 print("Second: ", second_str)
+
+first_str = "john"
+second_str = copy.deepcopy(first_str)
+print("First: ", first_str)
+print("Second: ", second_str)
