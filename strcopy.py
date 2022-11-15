@@ -48,3 +48,6 @@ print(new_companies[1])
 new_companies[1] = "Facebook"
 print("Original: ", companies)
 print("newCompany: ", new_companies)
+
+old_list = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+print(old_list)
