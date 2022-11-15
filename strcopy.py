@@ -15,4 +15,9 @@ first_str = "will"
 print(first_str)
 
 second_str = copy.copy(first_str)
-print(second_str)
+print("First: ", first_str)
+print("Second: ", second_str)
+
+second_str = "smith"
+print("First: ", first_str)
+print("Second: ", second_str)
