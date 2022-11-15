@@ -36,3 +36,6 @@ print("newNames: ", new_names)
 new_names[1] = "George"
 print("Original: ", names)
 print("newNames: ", new_names)
+
+companies = ["Apple", "Google", "Microsoft"]
+print(companies)
