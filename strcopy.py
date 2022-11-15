@@ -43,3 +43,8 @@ print(companies)
 new_companies = copy.copy(companies)
 print("Original: ", companies)
 print("newCompany: ", new_companies)
+
+print(new_companies[1])
+new_companies[1] = "Facebook"
+print("Original: ", companies)
+print("newCompany: ", new_companies)
