@@ -26,3 +26,6 @@ first_str = "john"
 second_str = copy.deepcopy(first_str)
 print("First: ", first_str)
 print("Second: ", second_str)
+
+names = ["Alex", "Bob", "Elton", "Eric"]
+print(names)
