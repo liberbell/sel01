@@ -39,3 +39,7 @@ print("newNames: ", new_names)
 
 companies = ["Apple", "Google", "Microsoft"]
 print(companies)
+
+new_companies = copy.copy(companies)
+print("Original: ", companies)
+print("newCompany: ", new_companies)
