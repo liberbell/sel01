@@ -29,3 +29,6 @@ print("Second: ", second_str)
 
 names = ["Alex", "Bob", "Elton", "Eric"]
 print(names)
+new_names = names
+print("Original: ", names)
+print("newNames: ", new_names)
