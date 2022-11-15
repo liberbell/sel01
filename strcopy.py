@@ -13,3 +13,6 @@ print(new_str[2])
 
 first_str = "will"
 print(first_str)
+
+second_str = copy.copy(first_str)
+print(second_str)
