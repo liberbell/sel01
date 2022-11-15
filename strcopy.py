@@ -5,3 +5,5 @@ new_str = old_str
 
 print(old_str)
 print(new_str)
+
+print(new_str[2])
