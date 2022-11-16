@@ -18,3 +18,7 @@ new_companies = copy.deepcopy(companies)
 
 print("Original:", companies)
 print("Copied  :", new_companies)
+
+new_companies[1] = "Facebook"
+print("Original:", companies)
+print("Copied  :", new_companies)
