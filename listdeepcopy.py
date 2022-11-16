@@ -14,3 +14,7 @@ print("Copied  : ", new_names)
 
 companies = ["Google", "Apple", "Microsoft"]
 print(companies)
+new_companies = copy.deepcopy(companies)
+
+print("Original:", companies)
+print("Copied  :", new_companies)
