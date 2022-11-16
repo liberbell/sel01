@@ -28,3 +28,7 @@ print(old_list)
 new_list = copy.deepcopy(old_list)
 print(old_list)
 print(new_list)
+
+old_list[1][2] = "Six"
+print(old_list)
+print(new_list)
