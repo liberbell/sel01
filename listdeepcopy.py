@@ -11,3 +11,6 @@ print(new_names[1])
 new_names[1] = "George"
 print("Original: ", names)
 print("Copied  : ", new_names)
+
+companies = ["Google", "Apple", "Microsoft"]
+print(companies)
