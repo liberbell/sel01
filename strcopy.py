@@ -63,3 +63,7 @@ print("new: ", new_list)
 new_list[2].append("Ten")
 print("old: ", old_list)
 print("new: ", new_list)
+
+old_list.append([10, 11, 12])
+print("old: ", old_list)
+print("new: ", new_list)
