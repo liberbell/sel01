@@ -59,3 +59,7 @@ print(old_list[1][1])
 old_list[1][1] = "Five"
 print("old: ", old_list)
 print("new: ", new_list)
+
+new_list[2].append("Ten")
+print("old: ", old_list)
+print("new: ", new_list)
