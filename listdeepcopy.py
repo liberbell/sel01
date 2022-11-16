@@ -32,3 +32,7 @@ print(new_list)
 old_list[1][2] = "Six"
 print(old_list)
 print(new_list)
+
+new_companies = companies[:]
+print("Original:", companies)
+print("Copied  :", new_companies)
