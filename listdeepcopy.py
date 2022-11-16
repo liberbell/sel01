@@ -36,3 +36,7 @@ print(new_list)
 new_companies = companies[:]
 print("Original:", companies)
 print("Copied  :", new_companies)
+
+new_companies[0] = "Twitter"
+print("Original:", companies)
+print("Copied  :", new_companies)
