@@ -1,3 +1,5 @@
+import copy
+
 fruits = ("apple", "banana", "orange")
 print(fruits)
 
@@ -19,3 +21,6 @@ print(new_fruits[1][0])
 new_fruits[1][0] = "strawberry"
 print("Ori:", fruits)
 print("New:", new_fruits)
+
+bikes = ("Honda", "Suzuki", "Triumph", ["Kawasaki", "Ducati"])
+print(bikes)
