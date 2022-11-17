@@ -4,3 +4,5 @@ print(months)
 new_months = months
 print("Ori: ", months)
 print("New: ", new_months)
+
+print(new_months["Feb"])
