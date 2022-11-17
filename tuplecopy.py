@@ -27,3 +27,7 @@ bikes = ("Honda", "Suzuki", "Triumph", ["Kawasaki", "Ducati"])
 new_bikes = copy.copy(bikes)
 print("Ori:", bikes)
 print("New:", new_bikes)
+
+new_bikes[3][0] = "Yamaha"
+print("Ori:", bikes)
+print("New:", new_bikes)
