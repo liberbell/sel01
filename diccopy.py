@@ -17,3 +17,5 @@ employees = {"Eric": 15000, "Alex": 10000, "Bob": 25, "Elton": 20000}
 employees_copy = employees
 print("Ori: ", employees)
 print("New: ", employees_copy)
+
+print(employees["Alex"])
