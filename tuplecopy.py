@@ -31,3 +31,8 @@ print("New:", new_bikes)
 new_bikes[3][0] = "Yamaha"
 print("Ori:", bikes)
 print("New:", new_bikes)
+
+new_bikes = copy.deepcopy(bikes)
+new_bikes[3][0] = "Yamaha"
+print("Ori:", bikes)
+print("New:", new_bikes)
