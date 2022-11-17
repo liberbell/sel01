@@ -23,4 +23,7 @@ print("Ori:", fruits)
 print("New:", new_fruits)
 
 bikes = ("Honda", "Suzuki", "Triumph", ["Kawasaki", "Ducati"])
-print(bikes)
+
+new_bikes = copy.copy(bikes)
+print("Ori:", bikes)
+print("New:", new_bikes)
