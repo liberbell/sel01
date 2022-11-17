@@ -14,3 +14,8 @@ fruits = ("apple", ["banana", "cherry"], "orange")
 new_fruits = fruits
 print("Ori:", fruits)
 print("New:", new_fruits)
+
+print(new_fruits[1][0])
+new_fruits[1][0] = "strawberry"
+print("Ori:", fruits)
+print("New:", new_fruits)
