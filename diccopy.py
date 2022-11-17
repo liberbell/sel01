@@ -7,6 +7,6 @@ print("New: ", new_months)
 
 print(new_months["Feb"])
 
-new_months["feb"] = "FEB"
+new_months["Feb"] = "FEB"
 print("Ori: ", months)
 print("New: ", new_months)
