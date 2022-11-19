@@ -77,3 +77,7 @@ employees = {"Eric": 15000, "Alex": 10000, "Bob": 25, "Elton": 20000}
 employees_copy = copy.deepcopy(employees)
 print("Ori: ", employees)
 print("New: ", employees_copy)
+
+employees["Alex"] = 12000
+print("Ori: ", employees)
+print("New: ", employees_copy)
