@@ -45,3 +45,7 @@ print("Ori: ", orig_dict)
 print("New: ", new_dict)
 
 print(new_dict["three"]["zero"])
+
+new_dict["three"]["zero"] = "ZERO"
+print("Ori: ", orig_dict)
+print("New: ", new_dict)
