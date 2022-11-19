@@ -56,3 +56,7 @@ print("Ori: ", orig_dict)
 new_dict = copy.copy(orig_dict)
 print("Ori: ", orig_dict)
 print("New: ", new_dict)
+
+new_dict["three"].add(3)
+print("Ori: ", orig_dict)
+print("New: ", new_dict)
