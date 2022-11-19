@@ -60,3 +60,6 @@ print("New: ", new_dict)
 new_dict["three"].add(3)
 print("Ori: ", orig_dict)
 print("New: ", new_dict)
+
+months = {"jan": 1, "feb": 2, "march": 3, "april": 4}
+print(months)
