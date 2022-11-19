@@ -39,3 +39,9 @@ print("New: ", new_dict)
 
 orig_dict = {"one": 1, "two": 2, "three": {"zero": 0, "one": 1}, "four": 4}
 print("Ori: ", orig_dict)
+
+new_dict = copy.copy(orig_dict)
+print("Ori: ", orig_dict)
+print("New: ", new_dict)
+
+print(new_dict["three"]["zero"])
