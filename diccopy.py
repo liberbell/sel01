@@ -19,3 +19,5 @@ print("Ori: ", employees)
 print("New: ", employees_copy)
 
 print(employees["Alex"])
+employees["Alex"] = 9800
+print(employees["Alex"])
