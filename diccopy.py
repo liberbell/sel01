@@ -32,3 +32,7 @@ print("New: ", new_dict)
 new_dict["five"][4] = "FIVE"
 print("Ori: ", orig_dict)
 print("New: ", new_dict)
+
+new_dict["five"].append(5)
+print("Ori: ", orig_dict)
+print("New: ", new_dict)
