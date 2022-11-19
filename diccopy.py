@@ -63,3 +63,7 @@ print("New: ", new_dict)
 
 months = {"jan": 1, "feb": 2, "march": 3, "april": 4}
 print(months)
+
+new_months = months.copy()
+print("Ori: ", months)
+print("New: ", new_months)
