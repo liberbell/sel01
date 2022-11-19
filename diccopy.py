@@ -67,3 +67,7 @@ print(months)
 new_months = months.copy()
 print("Ori: ", months)
 print("New: ", new_months)
+
+new_months["feb"] = "FEB"
+print("Ori: ", months)
+print("New: ", new_months)
