@@ -49,3 +49,10 @@ print(new_dict["three"]["zero"])
 new_dict["three"]["zero"] = "ZERO"
 print("Ori: ", orig_dict)
 print("New: ", new_dict)
+
+orig_dict = {"one": 1, "two": 2, "three": {0, 1, 2}, "four": 4}
+print("Ori: ", orig_dict)
+
+new_dict = copy.copy(orig_dict)
+print("Ori: ", orig_dict)
+print("New: ", new_dict)
