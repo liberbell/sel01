@@ -101,3 +101,7 @@ orig_dict = {"one": 1, "two": 2, "three": {"zero": 0, "one": 1}, "four": 4}
 new_dict = copy.deepcopy(orig_dict)
 print("Ori: ", orig_dict)
 print("New: ", new_dict)
+
+new_dict["three"]["zero"] = "ZERO"
+print("Ori: ", orig_dict)
+print("New: ", new_dict)
