@@ -81,3 +81,9 @@ print("New: ", employees_copy)
 employees["Alex"] = 12000
 print("Ori: ", employees)
 print("New: ", employees_copy)
+
+orig_dict = {"one": 1, "two": 2, "three": 3, "four": 4, "five": [1, 2, 3, 4, 5.0]}
+print(orig_dict)
+
+new_dict = copy.deepcopy(orig_dict)
+print(new_dict["five"][4])
