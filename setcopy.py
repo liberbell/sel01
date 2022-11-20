@@ -32,3 +32,7 @@ print("Mod: ", new_teachers_set)
 teachers_set.add("george")
 print("Ori: ", teachers_set)
 print("Mod: ", new_teachers_set)
+
+new_teachers_set.remove("ringo")
+print("Ori: ", teachers_set)
+print("Mod: ", new_teachers_set)
