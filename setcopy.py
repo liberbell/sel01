@@ -1,3 +1,5 @@
+import copy
+
 set_1 = {"c++", "php", "java", "python"}
 print(set_1)
 
@@ -21,3 +23,8 @@ print("Ori: ", set_1)
 set_2 = set_1
 print("Ori: ", set_1)
 print("Mod: ", set_2)
+
+teachers_set = {"bob", "eric", "ringo", "elton"}
+new_teachers_set = copy.copy(teachers_set)
+print("Ori: ", teachers_set)
+print("Mod: ", new_teachers_set)
