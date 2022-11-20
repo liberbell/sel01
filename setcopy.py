@@ -28,3 +28,7 @@ teachers_set = {"bob", "eric", "ringo", "elton"}
 new_teachers_set = copy.copy(teachers_set)
 print("Ori: ", teachers_set)
 print("Mod: ", new_teachers_set)
+
+teachers_set.add("george")
+print("Ori: ", teachers_set)
+print("Mod: ", new_teachers_set)
