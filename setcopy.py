@@ -15,3 +15,6 @@ print("Mod: ", set_2)
 
 # set_1 = {"c++", "php", ["java", "python"], "sql"}
 # print("Ori: ", set_1)
+
+set_1 = {"c++", "php", ("java", "python"), "sql"}
+print("Ori: ", set_1)
