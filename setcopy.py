@@ -36,3 +36,7 @@ print("Mod: ", new_teachers_set)
 new_teachers_set.remove("ringo")
 print("Ori: ", teachers_set)
 print("Mod: ", new_teachers_set)
+
+new_teachers_set = copy.deepcopy(teachers_set)
+print("Ori: ", teachers_set)
+print("Mod: ", new_teachers_set)
