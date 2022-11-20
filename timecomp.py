@@ -11,4 +11,5 @@ def addition(num1, num2):
     total = num1 + num2
 
     num_iterations += 1
-    print("The sum of %d and %d is %d \nTotal number of iterations "% (num1, num2, total))
+    print("The sum of %d and %d is %d \nTotal number of iterations = %d"
+            % (num1, num2, total, num_iterations))
