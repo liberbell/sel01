@@ -19,4 +19,11 @@ addition(20, 25)
 def check_oddeven(number):
     count = 0
     num_iterations = 0
-    
+
+    if (number % 2 == 0):
+        num_iterations += 1
+        print("%d is an even number" % number)
+
+    else:
+        num_iterations += 1
+        print("%d is an odd number" % number)
