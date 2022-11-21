@@ -73,3 +73,12 @@ check_prime2(1847)
 
 def find_maxval(num_list):
     maxval = num_list[0]
+    num_iterations = 0
+
+    for i in range(len(num_list)):
+        num_iterations += 1
+
+        if maxval < num_list[i]:
+            maxval = num_list[i]
+    
+    print("Max value of the list = %d\nTotal number of iteration = %d" % (maxval, num_iterations))
