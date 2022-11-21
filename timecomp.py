@@ -85,3 +85,7 @@ def find_maxval(num_list):
 
 lists = [1, 2, 5, 3, 10, -10, 9]
 find_maxval(lists)
+
+def find_factorial(number:int):
+    fact = 1
+    num_iteratins = 0
