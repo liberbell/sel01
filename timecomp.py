@@ -17,3 +17,6 @@ def addition(num1, num2):
 addition(20, 25)
 
 def check_oddeven(number):
+    count = 0
+    num_iterations = 0
+    
