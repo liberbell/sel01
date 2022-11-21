@@ -70,3 +70,6 @@ def check_prime2(number):
     print("%d is a prime number\nTotal number of iteration is %d" % (number, num_iterations))
 
 check_prime2(1847)
+
+def find_maxval(num_list):
+    maxval = num_list[0]
