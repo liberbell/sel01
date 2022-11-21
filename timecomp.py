@@ -41,3 +41,6 @@ def find_square(number):
     print("Square of %d is %d \nTotal number of iteration = %d" % (number, square, num_iterations))
 
 find_square(11)
+
+def check_prime(number):
+    num_iterations = 0
