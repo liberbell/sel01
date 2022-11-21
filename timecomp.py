@@ -89,3 +89,6 @@ find_maxval(lists)
 def find_factorial(number:int):
     fact = 1
     num_iteratins = 0
+
+    if (number < 0 or type(number) != int):
+        print("Invalid number")
