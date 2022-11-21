@@ -97,4 +97,5 @@ def find_factorial(number:int):
     for i in range(1, number + 1):
         fact = fact + i
         num_iteratins += 1
-        
+
+    print("The factorial of %d = %d\nTotal number of iteration = %d" % (number, fact, num_iteratins))
