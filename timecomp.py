@@ -54,7 +54,7 @@ def check_prime(number):
 
     print("%d is a prime number\nTotal number of iteration is %d" % (number, num_iterations))
 
-check_prime(49)
+check_prime(1847)
 
 def check_prime2(number):
     num_iterations = 0
@@ -65,3 +65,8 @@ def check_prime2(number):
 
         if number % i == 0:
             print("%d is not a prime number\nTotal number of iterations = %d" % (number, num_iterations))
+            return
+
+    print("%d is a prime number\nTotal number of iteration is %d" % (number, num_iterations))
+
+check_prime2(1847)
