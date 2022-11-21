@@ -47,3 +47,6 @@ def check_prime(number):
 
     for i in range(2, number):
         num_iterations += 1
+
+        if number % i == 0:
+            print("%d is not a prime number")
