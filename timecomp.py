@@ -44,3 +44,6 @@ find_square(11)
 
 def check_prime(number):
     num_iterations = 0
+
+    for i in range(2, number):
+        num_iterations += 1
