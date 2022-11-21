@@ -30,4 +30,12 @@ def check_oddeven(number):
 
     print("Total number of iteration = %d" % num_iterations)
 
-check_oddeven(13)
+check_oddeven(12)
+
+def find_square(number):
+    num_iterations = 0
+    square = number ** 2
+
+    num_iterations += 1
+
+    print("Square of %d is %d \nTotal number of iteration = %d" % (number, square, num_iterations))
