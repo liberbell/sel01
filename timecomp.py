@@ -92,3 +92,7 @@ def find_factorial(number:int):
 
     if (number < 0 or type(number) != int):
         print("Invalid number")
+        return
+    
+    for i in range(1, number + 1):
+        fact = fact + i
