@@ -61,3 +61,7 @@ def check_prime2(number):
     mid_point = int(number / 2)
 
     for i in range(2, mid_point):
+        num_iterations += 1
+
+        if number % i == 0:
+            print("%d is not a prime number\nTotal number of iterations = %d" % (number, num_iterations))
