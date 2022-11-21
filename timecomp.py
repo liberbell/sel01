@@ -27,3 +27,7 @@ def check_oddeven(number):
     else:
         num_iterations += 1
         print("%d is an odd number" % number)
+
+    print("Total number of iteration = %d" % num_iterations)
+
+check_oddeven(13)
