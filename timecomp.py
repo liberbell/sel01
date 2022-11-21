@@ -39,3 +39,5 @@ def find_square(number):
     num_iterations += 1
 
     print("Square of %d is %d \nTotal number of iteration = %d" % (number, square, num_iterations))
+
+find_square(11)
