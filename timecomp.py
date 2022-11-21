@@ -82,3 +82,6 @@ def find_maxval(num_list):
             maxval = num_list[i]
     
     print("Max value of the list = %d\nTotal number of iteration = %d" % (maxval, num_iterations))
+
+lists = [1, 2, 5, 3, 10, -10, 9]
+find_maxval(lists)
