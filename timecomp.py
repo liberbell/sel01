@@ -104,3 +104,12 @@ find_factorial(1050)
 
 def two_for_loops(number):
     total = 0
+    num_iterations = 0
+
+    for i in range(number):
+        num_iterations += 1
+        total = total + 1
+
+    for i in range(100):
+        num_iterations += 1
+        total = total + 1
