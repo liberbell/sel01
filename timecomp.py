@@ -131,3 +131,4 @@ def print_pairs(num_list):
 
 lists =[10, 20, 30]
 print_pairs(lists)
+print_pairs([11, 21, 46, 17, 68])
