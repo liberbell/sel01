@@ -101,3 +101,6 @@ def find_factorial(number:int):
     print("The factorial of %d = %d\nTotal number of iteration = %d" % (number, fact, num_iteratins))
 
 find_factorial(1050)
+
+def two_for_loops(number):
+    total = 0
