@@ -113,3 +113,5 @@ def two_for_loops(number):
     for i in range(100):
         num_iterations += 1
         total = total + 1
+
+    print("Total iteration are %d " % num_iterations)
