@@ -30,8 +30,7 @@ print(olympics.get())
 print(olympics.empty())
 # print(olympics.get())
 
-def Myqueue:
-
+class MyQueue:
     def __init__(self):
         """create a new queue,"""
         self.items = []
