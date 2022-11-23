@@ -146,3 +146,10 @@ def find_prime(lower, upper):
     print("Total iterations are %d" % num_iterations)
 
 find_prime(1, 100)
+
+def print_combinations(n, m):
+    num_iterations = 0
+    for i in range(n):
+        for j in range(m):
+            print(i, j)
+            num_iterations += 1
