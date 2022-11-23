@@ -39,3 +39,7 @@ def Myqueue:
     def is_empty(self):
         """return true if queue is empty"""
         return len(self.items) == 0
+
+    def enqueue(self, item):
+        """add a new element to the end of queue."""
+        self.items.append(item)
