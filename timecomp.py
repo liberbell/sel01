@@ -116,4 +116,7 @@ def two_for_loops(number):
 
     print("Total iteration are %d " % num_iterations)
 
-two_for_loops(1000)
+two_for_loops(100)
+
+def print_paris(num_list):
+    num_iterations = 0
