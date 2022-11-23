@@ -6,4 +6,5 @@ print(olympics)
 olympics.put("United States(USA)")
 olympics.put("Great Britain(GBR)")
 
-olympics.empty()
+print(olympics.empty())
+print(olympics.full())
