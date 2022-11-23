@@ -28,4 +28,10 @@ print(olympics.qsize())
 print(olympics.get())
 print(olympics.get())
 print(olympics.empty())
-print(olympics.get())
+# print(olympics.get())
+
+def Myqueue:
+
+    def __init__(self):
+        """create a new queue,"""
+        self.items = []
