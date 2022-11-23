@@ -14,3 +14,7 @@ print(olympics.qsize())
 olympics.put("China(CHN)")
 olympics.put("Russia(RUS)")
 olympics.put("Germany(GER)")
+
+print(olympics.full())
+
+print(olympics.qsize())
