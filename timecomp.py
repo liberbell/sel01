@@ -126,3 +126,5 @@ def print_paris(num_list):
         for j in range(n):
             print(num_list[i], num_list[j])
             num_iterations += 1
+
+    print("Total iterations are %d" % num_iterations)
