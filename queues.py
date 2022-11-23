@@ -24,3 +24,8 @@ print(olympics.qsize())
 print(olympics.get())
 print(olympics.get())
 print(olympics.qsize())
+
+print(olympics.get())
+print(olympics.get())
+print(olympics.empty())
+print(olympics.get())
