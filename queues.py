@@ -35,3 +35,7 @@ def Myqueue:
     def __init__(self):
         """create a new queue,"""
         self.items = []
+
+    def is_empty(self):
+        """return true if queue is empty"""
+        return len(self.items) == 0
