@@ -138,3 +138,9 @@ def find_prime(lower, upper):
     for num in lange(lower, upper):
         for i in range(i, int(num / 2)):
             num_iterations += 1
+
+            if (num % i) == 0:
+                break
+        else:
+            print(num)
+    print("Total iterations are %d" % num_iterations)
