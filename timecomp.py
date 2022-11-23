@@ -153,3 +153,5 @@ def print_combinations(n, m):
         for j in range(m):
             print(i, j)
             num_iterations += 1
+    
+    print("Total iterations are %d" % num_iterations)
