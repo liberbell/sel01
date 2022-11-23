@@ -155,3 +155,5 @@ def print_combinations(n, m):
             num_iterations += 1
     
     print("Total iterations are %d" % num_iterations)
+
+print_combinations(10, 12)
