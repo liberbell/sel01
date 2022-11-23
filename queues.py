@@ -18,3 +18,5 @@ olympics.put("Germany(GER)")
 print(olympics.full())
 
 print(olympics.qsize())
+print(olympics.get())
+print(olympics.qsize())
