@@ -42,3 +42,7 @@ class MyQueue:
     def enqueue(self, item):
         """add a new element to the end of queue."""
         self.items.append(item)
+
+    def dequeue(self):
+        """remove a element from the beginning of queue."""
+        return self.items.pop(0)
