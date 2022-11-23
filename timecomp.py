@@ -144,3 +144,5 @@ def find_prime(lower, upper):
         else:
             print(num)
     print("Total iterations are %d" % num_iterations)
+
+find_prime(1, 100)
