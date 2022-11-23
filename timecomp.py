@@ -129,4 +129,5 @@ def print_pairs(num_list):
 
     print("Total iterations are %d" % num_iterations)
 
-print_pairs(10, 20, 30)
+lists =[10, 20, 30]
+print_pairs(lists)
