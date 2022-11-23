@@ -135,7 +135,7 @@ print_pairs([11, 21, 46, 17, 68])
 
 def find_prime(lower, upper):
     num_iterations = 0
-    for num in lange(lower, upper):
+    for num in range(lower, upper):
         for i in range(i, int(num / 2)):
             num_iterations += 1
 
