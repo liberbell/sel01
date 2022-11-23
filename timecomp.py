@@ -120,3 +120,9 @@ two_for_loops(100)
 
 def print_paris(num_list):
     num_iterations = 0
+    n = len(num_list)
+    
+    for i in range(n):
+        for j in range(n):
+            print(num_list[i], num_list[j])
+            num_iterations += 1
