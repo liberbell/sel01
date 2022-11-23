@@ -46,3 +46,7 @@ class MyQueue:
     def dequeue(self):
         """remove a element from the beginning of queue."""
         return self.items.pop(0)
+
+    def size(self):
+        """return the size of the queue."""
+        return len(self.items)
