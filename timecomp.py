@@ -118,7 +118,7 @@ def two_for_loops(number):
 
 two_for_loops(100)
 
-def print_paris(num_list):
+def print_pairs(num_list):
     num_iterations = 0
     n = len(num_list)
     
@@ -128,3 +128,5 @@ def print_paris(num_list):
             num_iterations += 1
 
     print("Total iterations are %d" % num_iterations)
+
+print_pairs(10, 20, 30)
