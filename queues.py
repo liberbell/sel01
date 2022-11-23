@@ -8,3 +8,9 @@ olympics.put("Great Britain(GBR)")
 
 print(olympics.empty())
 print(olympics.full())
+
+print(olympics.qsize())
+
+olympics.put("China(CHN)")
+olympics.put("Russia(RUS)")
+olympics.put("Germany(GER)")
