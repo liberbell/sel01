@@ -56,3 +56,5 @@ class MyQueue:
 
         if self.is_empty():
             raise Exception("Nothing to peek")
+        
+        return self.items[0]
