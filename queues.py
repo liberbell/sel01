@@ -74,3 +74,5 @@ olympics.enqueue("Germany(GER)")
 print(olympics.size())
 
 print(olympics.peek())
+olympics.dequeue()
+print(olympics.peek())
