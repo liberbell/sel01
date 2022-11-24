@@ -64,3 +64,4 @@ print(olympics)
 
 olympics.enqueue("United State(USA)")
 olympics.enqueue("Great Britain(GBR)")
+print(olympics.items)
