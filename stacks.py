@@ -15,3 +15,6 @@ stack.append("Japan(JPN)")
 stack.append("France(FRA)")
 stack.append("Italy(ITA)")
 stack.append("Australia(AUS)")
+
+print(stack.pop())
+print(stack.pop())
