@@ -50,3 +50,9 @@ class MyQueue:
     def size(self):
         """return the size of the queue."""
         return len(self.items)
+
+    def peek(self):
+        """Have a look at first element of the queue"""
+
+        if self.is_empty():
+            raise Exception("Nothing to peek")
