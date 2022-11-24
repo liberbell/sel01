@@ -67,3 +67,7 @@ olympics.enqueue("Great Britain(GBR)")
 print(olympics.items)
 print(olympics.peek())
 print(olympics.size())
+
+olympics.enqueue("China(CHN)")
+olympics.enqueue("Russia(RUS)")
+olympics.enqueue("Germany(GER)")
