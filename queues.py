@@ -58,3 +58,6 @@ class MyQueue:
             raise Exception("Nothing to peek")
         
         return self.items[0]
+
+olympics = MyQueue()
+print(olympics)
