@@ -57,3 +57,8 @@ olympics.push("China(CHN)")
 olympics.push("Germany(GER")
 
 print(olympics.size())
+
+olympics.push("Japan(JPN)")
+olympics.push("France(FRA)")
+
+print(olympics.pop())
