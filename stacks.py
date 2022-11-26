@@ -39,3 +39,6 @@ class Stack():
         if self.is_empty():
             raise Exception("Nothing to peek")
         return self.stack(len(self.stack) - 1)
+
+    def is_empty(self):
+        """Return true if stack is empty"""
