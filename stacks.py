@@ -27,3 +27,9 @@ class Stack():
     def push(self, data):
         """Add an element to the stack"""
         self.stack.append(data)
+
+    def pop(self):
+        """Remove the top element of the stack"""
+        if self.is_empty():
+            raise Exception("Nothing to pop")
+        return self.stack.pop(len(self.stack) - 1)
