@@ -32,13 +32,13 @@ class Stack():
         """Remove the top element of the stack"""
         if self.is_empty():
             raise Exception("Nothing to pop")
-        return self.stack.pop(len(self.stack) - 1)
+        return self.stack.pop[len(self.stack) - 1]
 
     def peek(self):
         """Have a look at top element of the stack"""
         if self.is_empty():
             raise Exception("Nothing to peek")
-        return self.stack(len(self.stack) - 1)
+        return self.stack[len(self.stack) - 1]
 
     def is_empty(self):
         """Return true if stack is empty"""
@@ -63,3 +63,4 @@ olympics.push("France(FRA)")
 
 print(olympics.pop())
 print(olympics.is_empty())
+print(olympics.peek())
