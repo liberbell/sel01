@@ -49,9 +49,11 @@ class Stack():
         return len(self.stack)
 
 olympics = Stack()
-print(olympics)
+# print(olympics)
 
 olympics.push("United States(USA)")
 olympics.push("Great Britain(GBR)")
 olympics.push("China(CHN)")
 olympics.push("Germany(GER")
+
+print(olympics.size())
