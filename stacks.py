@@ -38,3 +38,4 @@ class Stack():
         """Have a look at top element of the stack"""
         if self.is_empty():
             raise Exception("Nothing to peek")
+        return self.stack(len(self.stack) - 1)
