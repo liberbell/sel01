@@ -18,3 +18,8 @@ stack.append("Australia(AUS)")
 
 print(stack.pop())
 print(stack.pop())
+
+class Stack():
+    def __init__(self):
+        """create a new stack"""
+        self.stack = []
