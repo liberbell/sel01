@@ -1,23 +1,23 @@
-stack = []
+# stack = []
 
-stack.append("United States(USA)")
-stack.append("Great Britain(GBR)")
-stack.append("China(CHN)")
+# stack.append("United States(USA)")
+# stack.append("Great Britain(GBR)")
+# stack.append("China(CHN)")
 
-print(stack)
-stack.pop()
-print(stack)
+# print(stack)
+# stack.pop()
+# print(stack)
 
-stack.append("China(CHN)")
-stack.append("Russia(RUS)")
-stack.append("Germany(GER")
-stack.append("Japan(JPN)")
-stack.append("France(FRA)")
-stack.append("Italy(ITA)")
-stack.append("Australia(AUS)")
+# stack.append("China(CHN)")
+# stack.append("Russia(RUS)")
+# stack.append("Germany(GER")
+# stack.append("Japan(JPN)")
+# stack.append("France(FRA)")
+# stack.append("Italy(ITA)")
+# stack.append("Australia(AUS)")
 
-print(stack.pop())
-print(stack.pop())
+# print(stack.pop())
+# print(stack.pop())
 
 class Stack():
     def __init__(self):
@@ -50,3 +50,8 @@ class Stack():
 
 olympics = Stack()
 print(olympics)
+
+olympics.push("United States(USA)")
+olympics.push("Great Britain(GBR)")
+olympics.push("China(CHN)")
+olympics.push("Germany(GER")
