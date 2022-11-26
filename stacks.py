@@ -47,3 +47,6 @@ class Stack():
     def size(self):
         """Return size of the stack"""
         return len(self.stack)
+
+olympics = Stack()
+print(olympics)
