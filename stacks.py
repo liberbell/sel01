@@ -42,3 +42,8 @@ class Stack():
 
     def is_empty(self):
         """Return true if stack is empty"""
+        return len(self.stack) == 0
+
+    def size(self):
+        """Return size of the stack"""
+        return len(self.stack)
