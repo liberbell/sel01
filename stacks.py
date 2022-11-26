@@ -62,3 +62,4 @@ olympics.push("Japan(JPN)")
 olympics.push("France(FRA)")
 
 print(olympics.pop())
+print(olympics.is_empty())
