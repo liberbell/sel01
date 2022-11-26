@@ -23,3 +23,7 @@ class Stack():
     def __init__(self):
         """create a new stack"""
         self.stack = []
+
+    def push(self, data):
+        """Add an element to the stack"""
+        self.stack.append(data)
