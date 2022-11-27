@@ -30,3 +30,9 @@ class LinkedList:
         """insert a new element at the begging of the list"""
 
         self.head = Node(dataval=dataval, nextval=self.head)
+
+    def append(self, dataval):
+        """insert a new element at the end of the list"""
+
+        if not self.head:
+            self.head = Node(dataval=dataval)
