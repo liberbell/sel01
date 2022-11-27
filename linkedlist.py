@@ -53,3 +53,6 @@ class LinkedList:
 
         curr = self.head
         while curr and curr.dataval != middle_dataval:
+            curr = curr.nextval
+
+        new_node = Node(dataval=dataval)
