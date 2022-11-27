@@ -22,3 +22,6 @@ class LinkedList:
 
         while curr:
             nodes.append(repr(curr))
+            curr = curr.nextval
+
+        return "{" + "->".join(nodes) + "}"
