@@ -59,3 +59,6 @@ class LinkedList:
 
         new_node.nextval = curr.nextval
         curr.nextval = new_node
+
+    def find(self, data):
+        """search for the first element with `dataval` matching"""
