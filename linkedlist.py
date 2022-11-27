@@ -13,3 +13,12 @@ class LinkedList:
         """creating a new singly-linked list."""
 
         self.head = None
+    
+    def __rper__(self):
+        """creating a string represantation of the data in a list"""
+
+        nodes = []
+        curr = self.head
+
+        while curr:
+            nodes.append(repr(curr))
