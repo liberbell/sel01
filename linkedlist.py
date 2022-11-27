@@ -49,3 +49,7 @@ class LinkedList:
 
         if middle_dataval is None:
             print("Data to insert after not specified")
+            return
+
+        curr = self.head
+        while curr and curr.dataval != middle_dataval:
