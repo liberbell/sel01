@@ -63,3 +63,9 @@ class LinkedList:
     def find(self, data):
         """search for the first element with `dataval` matching
         `data`. return the element or `None` if not found."""
+
+        curr = self.head
+        while curr and curr.dataval != data:
+            curr = curr.nextval
+
+        return curr
