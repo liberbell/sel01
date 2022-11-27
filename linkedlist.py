@@ -41,3 +41,5 @@ class LinkedList:
 
         while curr.nextval:
             curr = curr.nextval
+        
+        curr.nextval = Node(dataval=dataval)
