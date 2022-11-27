@@ -56,3 +56,6 @@ class LinkedList:
             curr = curr.nextval
 
         new_node = Node(dataval=dataval)
+
+        new_node.nextval = curr.nextval
+        curr.nextval = new_node
