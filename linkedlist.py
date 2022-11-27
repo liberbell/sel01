@@ -24,4 +24,7 @@ class LinkedList:
             nodes.append(repr(curr))
             curr = curr.nextval
 
-        return "{" + "->".join(nodes) + "}"
+        return "[" + "->".join(nodes) + "]"
+    
+    def prepend(self, dataval):
+        """insert a new element at the begging of the list"""
