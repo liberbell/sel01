@@ -28,3 +28,5 @@ class LinkedList:
     
     def prepend(self, dataval):
         """insert a new element at the begging of the list"""
+
+        self.head = Node(dataval=dataval, nextval=self.head)
