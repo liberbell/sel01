@@ -69,3 +69,5 @@ class LinkedList:
             curr = curr.nextval
 
         return curr
+
+    def remove(self, data):
