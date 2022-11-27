@@ -43,3 +43,9 @@ class LinkedList:
             curr = curr.nextval
         
         curr.nextval = Node(dataval=dataval)
+
+    def add_after(self, middle_dataval, dataval):
+        """insert a new element after the node with middle_dataval"""
+
+        if middle_dataval is None:
+            print("Data to insert after not specified")
