@@ -23,7 +23,6 @@ class LinkedList:
         while curr:
             nodes.append(repr(curr))
             curr = curr.nextval
-
         return "[" + "->".join(nodes) + "]"
     
     def prepend(self, dataval):
@@ -36,3 +35,9 @@ class LinkedList:
 
         if not self.head:
             self.head = Node(dataval=dataval)
+            return
+
+        curr = self.head
+
+        while curr.nextval:
+            curr = curr.nextval
