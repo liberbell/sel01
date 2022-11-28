@@ -108,3 +108,9 @@ class LinkedList:
         def recursion(curr, prev):
             if not curr:
                 return prev
+
+            nextval = curr.nextval
+            curr.nextval = prev
+
+            prev = curr
+            curr = nextval
