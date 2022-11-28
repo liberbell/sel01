@@ -99,5 +99,12 @@ class LinkedList:
 
             prev_node = curr
             curr = nextval
-            
+
         self.head = prev_node
+
+    def reverse_recursive(self):
+        """reverse the list in place using recursion"""
+
+        def recursion(curr, prev):
+            if not curr:
+                return prev
