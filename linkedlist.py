@@ -141,3 +141,8 @@ print(numbers)
 
 numbers.prepend("one")
 print(numbers)
+
+numbers.prepend("four")
+numbers.prepend("five")
+numbers.prepend("seven")
+print(numbers)
