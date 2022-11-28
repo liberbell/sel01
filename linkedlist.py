@@ -92,3 +92,10 @@ class LinkedList:
         curr = self.head
         prev_node = None
         next_node = None
+
+        while curr:
+            nextval = curr.nextval
+            curr.nextval = prev_node
+
+            prev_node = curr
+            curr = nextval
