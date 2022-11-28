@@ -114,3 +114,7 @@ class LinkedList:
 
             prev = curr
             curr = nextval
+
+            return recursion(curr, prev)
+
+        self.head = recursion(curr=self.head, prev=None)
