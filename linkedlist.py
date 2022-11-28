@@ -121,3 +121,5 @@ class LinkedList:
 
     def count_nodes(self):
         """count the number of nodes in the linked list."""
+        if (self.head == None):
+            return 0
