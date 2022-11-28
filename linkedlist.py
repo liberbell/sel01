@@ -138,3 +138,6 @@ print(numbers)
 numbers.append("two")
 numbers.append("three")
 print(numbers)
+
+numbers.prepend("one")
+print(numbers)
