@@ -80,3 +80,8 @@ class LinkedList:
             curr = curr.nextval
 
         if prev is None:
+            self.head = curr.nextval
+
+        elif curr:
+            prev.nextval = curr.nextval
+            curr.nextval = None
