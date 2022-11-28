@@ -74,3 +74,6 @@ class LinkedList:
         """remove the first occurrence of `data` in the list."""
         curr = self.head
         prev = None
+
+        while curr and curr.dataval != data:
+            prev = curr
