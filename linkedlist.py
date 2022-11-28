@@ -123,3 +123,11 @@ class LinkedList:
         """count the number of nodes in the linked list."""
         if (self.head == None):
             return 0
+        else:
+            curr = self.head
+            count = 0
+            while (curr != None):
+                curr = curr.nextval
+                count += 1
+        
+        return count
