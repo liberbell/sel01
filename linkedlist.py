@@ -85,3 +85,10 @@ class LinkedList:
         elif curr:
             prev.nextval = curr.nextval
             curr.nextval = None
+
+    def reverse(self):
+        """reverse the list in-place."""
+
+        curr = self.head
+        prev_node = None
+        next_node = None
