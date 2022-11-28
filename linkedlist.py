@@ -146,3 +146,6 @@ numbers.append("four")
 numbers.append("five")
 numbers.append("seven")
 print(numbers)
+
+numbers.add_after("five", "six")
+print(numbers)
