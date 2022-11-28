@@ -149,3 +149,6 @@ print(numbers)
 
 numbers.add_after("five", "six")
 print(numbers)
+
+numbers.reverse()
+print(numbers)
