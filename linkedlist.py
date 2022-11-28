@@ -158,3 +158,6 @@ print(numbers)
 
 numbers.remove("one")
 print(numbers)
+
+numbers.remove("six")
+print(numbers)
