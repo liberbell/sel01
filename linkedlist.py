@@ -152,3 +152,6 @@ print(numbers)
 
 numbers.reverse()
 print(numbers)
+
+numbers.reverse_recursive()
+print(numbers)
