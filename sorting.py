@@ -7,3 +7,6 @@ def selection_sort(original_list):
         min_value_index = i
         for j in range(i + 1, length):
             if original_list(min_value_index) > original_list[j]:
+                min_value_index = j
+        
+        original_list[i], original_list[min_value_index] = original_list[min_value_index], original_list[i]
