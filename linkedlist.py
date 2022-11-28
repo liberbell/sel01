@@ -71,3 +71,6 @@ class LinkedList:
         return curr
 
     def remove(self, data):
+        """remove the first occurrence of `data` in the list."""
+        curr = self.head
+        prev = None
