@@ -134,3 +134,6 @@ class LinkedList:
 
 numbers = LinkedList()
 print(numbers)
+
+numbers.append("two")
+numbers.append("three")
