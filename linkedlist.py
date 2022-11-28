@@ -1,5 +1,5 @@
 class Node:
-    """A node is a singly-linked list"""
+    """A node in a singly-linked list"""
 
     def __init__(self, dataval=None, nextval=None):
         self.dataval = dataval
@@ -14,8 +14,8 @@ class LinkedList:
 
         self.head = None
     
-    def __rper__(self):
-        """creating a string represantation of the data in a list"""
+    def __repr__(self):
+        """creating a string reprentation of the data in a list"""
 
         nodes = []
         curr = self.head
