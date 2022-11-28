@@ -155,3 +155,6 @@ print(numbers)
 
 numbers.reverse_recursive()
 print(numbers)
+
+numbers.remove("one")
+print(numbers)
