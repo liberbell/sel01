@@ -163,3 +163,4 @@ numbers.remove("six")
 print(numbers)
 
 print(numbers.count_nodes())
+
