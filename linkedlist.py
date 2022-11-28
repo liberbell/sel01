@@ -99,3 +99,5 @@ class LinkedList:
 
             prev_node = curr
             curr = nextval
+            
+        self.head = prev_node
