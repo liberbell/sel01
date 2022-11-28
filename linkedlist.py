@@ -118,3 +118,6 @@ class LinkedList:
             return recursion(curr, prev)
 
         self.head = recursion(curr=self.head, prev=None)
+
+    def count_nodes(self):
+        """count the number of nodes in the linked list."""
