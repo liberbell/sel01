@@ -131,3 +131,6 @@ class LinkedList:
                 count += 1
         
         return count
+
+numbers = LinkedList()
+print(numbers)
