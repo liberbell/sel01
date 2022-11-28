@@ -10,3 +10,5 @@ def selection_sort(original_list):
                 min_value_index = j
         
         original_list[i], original_list[min_value_index] = original_list[min_value_index], original_list[i]
+
+        print("Sort till index: ", i)
