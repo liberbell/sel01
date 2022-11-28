@@ -13,3 +13,6 @@ def selection_sort(original_list):
 
         print("Sort till index: ", i)
         print_list(original_list)
+
+    print("Sorted list: ")
+    print_list(original_list)
