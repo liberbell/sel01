@@ -77,3 +77,6 @@ class LinkedList:
 
         while curr and curr.dataval != data:
             prev = curr
+            curr = curr.nextval
+
+        if prev is None:
