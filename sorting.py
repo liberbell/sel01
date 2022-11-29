@@ -32,3 +32,6 @@ def bubble_sort(original_list):
         
         print("Unsorted till index: ", i - 1)
         print_list(original_list)
+
+student_marks = [88, 99, 34, 32, 43, 25, 29, 29, 45, 49, 37]
+print_list(student_marks)
