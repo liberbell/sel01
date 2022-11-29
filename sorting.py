@@ -45,4 +45,7 @@ def insertion_sort(original_list):
     for i in range(0, length - 1):
         for j in range(i + 1, 0, -1):
             if original_list[j] < original_list[j - 1]:
-                original_list[j]
+                original_list[j], original_list[j - i] = original_list[j - 1], original_list[j]
+        
+        print("Sorted till index: ", i)
+        print_list(original_list)
