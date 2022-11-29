@@ -36,3 +36,5 @@ def bubble_sort(original_list):
 student_marks = [88, 99, 34, 32, 43, 25, 29, 29, 45, 49, 37]
 print_list(student_marks)
 bubble_sort(student_marks)
+
+flowers_list = ["sunflower", "freesia", "daffodil", "anemone", "asiatic lily", "jasmin"]
