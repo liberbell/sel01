@@ -19,3 +19,6 @@ def selection_sort(original_list):
 
 num_list = [10, 11, 5, 7, 2, 8, 3, 9, 6, 1, 4]
 selection_sort(num_list)
+
+animal_list = ["Lion", "Giraffe", "Elephant", "Monkey", "Cheetah"]
+selection_sort(animal_list)
