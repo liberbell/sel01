@@ -22,3 +22,8 @@ selection_sort(num_list)
 
 animal_list = ["Lion", "Giraffe", "Elephant", "Monkey", "Cheetah"]
 selection_sort(animal_list)
+
+def bubble_sort(original_list):
+    length = len(original_list)
+    for i in range(length - 1, 0, -1):
+        for index in range(i):
