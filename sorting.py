@@ -39,3 +39,7 @@ bubble_sort(student_marks)
 
 flowers_list = ["sunflower", "freesia", "daffodil", "anemone", "asiatic lily", "jasmin"]
 bubble_sort(flowers_list)
+
+def insertion_sort(original_list):
+    length = len(original_list)
+    for i in range(0, length - 1):
