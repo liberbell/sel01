@@ -68,3 +68,6 @@ def shell_sort(original_list):
             temp = original_list[i]
 
             j = i
+
+            while j >= gap and original_list[j - gap] > temp:
+                original_list[j] = original_list[j - gap]
