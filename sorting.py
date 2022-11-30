@@ -51,3 +51,4 @@ def insertion_sort(original_list):
         print_list(original_list)
 
 a = [10, 5, 7, 2, 8, 3, 9, 6, 1, 4]
+insertion_sort(a)
