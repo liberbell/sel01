@@ -61,3 +61,10 @@ insertion_sort(country_list)
 
 def shell_sort(original_list):
     length = len(original_list)
+    gap = length // 2
+
+    while gap > 0:
+        for i in range(gap, length):
+            temp = original_list[i]
+
+            j = i
