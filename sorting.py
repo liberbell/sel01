@@ -71,3 +71,10 @@ def shell_sort(original_list):
 
             while j >= gap and original_list[j - gap] > temp:
                 original_list[j] = original_list[j - gap]
+                j -= gap
+
+            original_list[j] = gap
+            print("Gap: ", gap)
+            print_list(original_list)
+        
+        gap = gap // 2
