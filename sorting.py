@@ -78,3 +78,6 @@ def shell_sort(original_list):
             print_list(original_list)
         
         gap = gap // 2
+
+arr = [12, 34, 54, 2, 5, 10, 100, 20, 23, 22, 19, 15]
+shell_sort(arr)
