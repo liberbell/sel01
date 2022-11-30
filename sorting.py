@@ -73,7 +73,7 @@ def shell_sort(original_list):
                 original_list[j] = original_list[j - gap]
                 j -= gap
 
-            original_list[j] = gap
+            original_list[j] = temp
             print("Gap: ", gap)
             print_list(original_list)
         
