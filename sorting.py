@@ -58,3 +58,6 @@ insertion_sort(a)
 
 country_list = ["Washington", "Springfield", "Franklin", "Greenville", "Bristol"]
 insertion_sort(country_list)
+
+def shell_sort(original_list):
+    length = len(original_list)
