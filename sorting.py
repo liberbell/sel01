@@ -101,4 +101,5 @@ def merge_sort(original_list):
     k = 0
 
     while i < len(lefthalf) and j < len(righthalf):
+        if lefthalf[i] < righthalf[j]:
 
