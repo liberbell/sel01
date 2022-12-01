@@ -119,3 +119,5 @@ def merge_sort(original_list):
 num_list = [54, 26, 93, 17, 77, 31, 44, 55, 20, 13, 2, 100, 66]
 merge_sort(num_list)    
 
+def partition(original_list, start_index, end_index):
+    a
