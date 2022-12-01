@@ -90,4 +90,8 @@ def merge_sort(original_list):
     lefthalf = original_list[:mid]
     righthalf = original_list[mid:]
 
-    
+    merge_sort(lefthalf)
+    print_list(lefthalf)
+
+    merge_sort(righthalf)
+    print_list(righthalf)
