@@ -120,4 +120,8 @@ num_list = [54, 26, 93, 17, 77, 31, 44, 55, 20, 13, 2, 100, 66]
 merge_sort(num_list)    
 
 def partition(original_list, start_index, end_index):
-    a
+    curr_index = start_index
+    pivot = original_list[end_index]
+
+    for i in range(start_index, end_index):
+        if original_list[i] <= pivot:
