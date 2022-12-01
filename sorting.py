@@ -141,3 +141,6 @@ def quick_sort(original_list, start_index, end_index):
     
     quick_sort(original_list, start_index, pi - 1)
     quick_sort(original_list, pi + 1, end_index)
+
+num_list = [54, 26, 93, 17, 77, 31, 44, 55, 20, 2, 6, 10, 88, 19]
+quick_sort(num_list, 0, len(num_list) -1)
