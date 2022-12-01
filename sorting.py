@@ -114,3 +114,8 @@ def merge_sort(original_list):
     while i < len(lefthalf):
         original_list[k] = lefthalf[i]
 
+        i = i + 1
+        k = k + 1
+
+    
+
