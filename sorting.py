@@ -100,3 +100,5 @@ def merge_sort(original_list):
     j = 0
     k = 0
 
+    while i < len(lefthalf) and j < len(righthalf):
+
