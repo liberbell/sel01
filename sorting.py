@@ -81,3 +81,13 @@ def shell_sort(original_list):
 
 arr = [12, 34, 54, 2, 5, 10, 100, 20, 23, 22, 19, 15]
 shell_sort(arr)
+
+def merge_sort(original_list):
+    if len(original_list) <= 1:
+        return
+
+    mid = len(original_list) // 2
+    lefthalf = original_list[:mid]
+    righthalf = original_list[mid:]
+
+    
