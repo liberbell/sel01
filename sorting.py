@@ -125,3 +125,5 @@ def partition(original_list, start_index, end_index):
 
     for i in range(start_index, end_index):
         if original_list[i] <= pivot:
+            original_list[curr_index], original_list[i] = original_list[i], original_list[curr_index]
+            curr_index = curr_index + 1
