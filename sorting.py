@@ -95,3 +95,8 @@ def merge_sort(original_list):
 
     merge_sort(righthalf)
     print_list(righthalf)
+
+    i = 0
+    j = 0
+    k = 0
+
