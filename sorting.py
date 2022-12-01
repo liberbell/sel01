@@ -134,3 +134,6 @@ def partition(original_list, start_index, end_index):
 def quick_sort(original_list, start_index, end_index):
     if start_index >= end_index:
         return
+
+    pi = partition(original_list, start_index, end_index)
+    print("Element in the right place: ", original_list[pi])
