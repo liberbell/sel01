@@ -116,6 +116,6 @@ def merge_sort(original_list):
 
         i = i + 1
         k = k + 1
-
-    
+num_list = [54, 26, 93, 17, 77, 31, 44, 55, 20, 13, 2, 100, 66]
+merge_sort(num_list)    
 
