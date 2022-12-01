@@ -130,3 +130,7 @@ def partition(original_list, start_index, end_index):
 
     original_list[curr_index], original_list[end_index] = original_list[end_index], original_list[curr_index]
     return curr_index
+
+def quick_sort(original_list, start_index, end_index):
+    if start_index >= end_index:
+        return
