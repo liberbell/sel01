@@ -105,4 +105,6 @@ def merge_sort(original_list):
             original_list[k] = lefthalf[i]
 
             i = i + 1
+        else:
+            original_list[k] = righthalf[j]
 
